@@ -17,5 +17,5 @@ function isGraphical(seq)
             graphical = false; break;
         end
     end
-    return (graphical,subSeqs)
+    return (graphical,Vector{Array{Int64,1}}(subSeqs))
 end
